@@ -1,3 +1,9 @@
+class Db_model extends CI_Model{
+	
+	function __construct() {
+        parent::__construct();
+    }
+
 /**
 * Drop-down Menu From Database
 * @param	mixed	$label
@@ -30,3 +36,4 @@
             return form_dropdown($name,$data,$selected,$extra);
         }
     }
+}
