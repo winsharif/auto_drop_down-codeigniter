@@ -1,16 +1,15 @@
-  /**
-	 * Drop-down Menu From Database
-	 *
-	 * @param	mixed	$label
-   * @param	mixed	$Name of Drop-down input
-   * @param	mixed	$id = <option value="id"> 
-	 * @param	mixed	$value display
-	 * @param	mixed	$selected single / multiple = array('2','5')
-   * @param	mixed	$where condition
-   * @param	mixed	$DB table
-	 * @param	mixed	$extra
-	 * @return	string  complete Drop-down Menu
-	 */
+/**
+* Drop-down Menu From Database
+* @param	mixed	$label
+* @param	mixed	$Name of Drop-down input
+* @param	mixed	$id = <option value="id"> 
+* @param	mixed	$value display
+* @param	mixed	$selected single / multiple = array('2','5')
+* @param	mixed	$where condition
+* @param	mixed	$DB table
+* @param	mixed	$extra
+* @return	string  complete Drop-down Menu
+*/
     function auto_drop_down($label,$name,$id,$value,$selected='',$where='',$table,$extra = '')
     {
         $data[''] = 'Select '.$label;
